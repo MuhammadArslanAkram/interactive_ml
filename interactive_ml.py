@@ -8,6 +8,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.decomposition import PCA 
 import matplotlib.pyplot as plt
 
+st.set_page_config("Interactive ML")
 st.title("Explore different classifier")
 
 st.sidebar.markdown(""" **Developed by** [M.Arslan Akram](https://www.linkedin.com/in/arslanakram1/)
